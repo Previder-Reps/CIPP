@@ -116,6 +116,12 @@
       "manifest.json"
     ]
   },
+  "networking": {
+    "allowedIpRanges": [
+      "62.165.79.130/32",
+      "84.241.128.18/32",
+    ]
+  },
   "responseOverrides": {
     "401": {
       "redirect": "/.auth/login/aad?post_login_redirect_uri=.referrer",
